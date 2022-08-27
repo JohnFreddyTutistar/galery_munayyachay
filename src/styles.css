@@ -2,7 +2,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(45deg, #009bf1 0, #0099fb 4.55%, #0096ff 9.09%, #0092ff 13.64%, #008eff 18.18%, #0088ff 22.73%, #0082ff 27.27%, #397bff 31.82%, #6d72fb 36.36%, #8f69f2 40.91%, #a960e6 45.45%, #be55d8 50%, #cf4ac9 54.55%, #dd3fb9 59.09%, #e834a8 63.64%, #ef2c96 68.18%);
+    background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     position: relative;
     animation: change 10s ease-in-out infinite;

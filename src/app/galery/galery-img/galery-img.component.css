@@ -1,24 +1,49 @@
-.Contenedor1{
-    margin: 5px;
-    color: #fff;
-}
 h1{
     color: #fff;
+    font-size: 50px;
+}
+
+.CajaArriba{
+    margin: 5px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.CajaArriba:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.9));
+    border-radius: 20px;
+}
+
+.contenedorTxt{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.contenedorImg{
+    width: 100%;
+    display: b;
+    height: 100%;
+    border-radius: 20px;
 }
 
 .cajaImg{
     width: 200px;
     height: 500px;
     background: linear-gradient(180deg, #000000 1%, #ffffff 100%);  
-    /* background-image: url(../../../assets/img-categories/1.jpg); */
-    background-size: 100%;
-    border-radius: 10px;
+    /* background-image: url(./imgcarnaval.jpg);  */
+    border-radius: 20px;
     text-align: center;
+    box-shadow: 0px 20px 25px -10px rgba(0,0,0,0.5);
 }
 .cajaVacia{
     width: 200px;
     height: 50px;
-}
-img{
-    width: 200px;
 }
