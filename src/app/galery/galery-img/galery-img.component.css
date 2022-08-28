@@ -7,6 +7,7 @@ h1{
     margin: 5px;
     position: relative;
     border-radius: 20px;
+    
 }
 
 .CajaArriba:before {
@@ -29,7 +30,7 @@ h1{
 
 .contenedorImg{
     width: 100%;
-    display: b;
+    display: block;
     height: 100%;
     border-radius: 20px;
 }
