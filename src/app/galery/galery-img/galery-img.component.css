@@ -4,7 +4,7 @@ h1{
 }
 
 .CajaArriba{
-    margin: 5px;
+    margin: auto;
     position: relative;
     border-radius: 20px;
     
@@ -63,14 +63,14 @@ h1{
   }
   
   .contenedor-timeline::-webkit-scrollbar-track {
-    background: #63a355;        /* color of the tracking area */
+    background: #39ff14;        /* color of the tracking area */
     border-radius: 20px; 
   }
   
   .contenedor-timeline::-webkit-scrollbar-thumb {
-    background-color: #009dcf;    /* color of the scroll thumb */
+    background-color: #0048cf;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #63a355;  /* creates padding around scroll thumb */
+    border: 3px solid #39ff14;  /* creates padding around scroll thumb */
   }
 
 .contenedor-timeline .item{
@@ -81,7 +81,9 @@ h1{
     line-height: 110px;
     text-align: center;
     background-color: #ddd;
-    margin-right: 2px;
+    margin-right: 5px;
     border-radius: 50%;
-    background-image: radial-gradient(circle at 50% 50%, #e85cff 0, #b752ff 25%, #8446f9 50%, #4e39da 75%, #002ebd 100%);
+    background-image: radial-gradient(circle at 50% 50%, #df67ff 0, #a458ff 25%, #6446f9 50%, #0034d0 75%, #0025aa 100%);
+    animation: change 10s ease-in-out infinite;
 }
+

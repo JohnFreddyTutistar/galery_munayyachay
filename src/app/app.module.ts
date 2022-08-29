@@ -7,19 +7,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GaleryImgComponent } from './galery/galery-img/galery-img.component';
 import { ImgComponentComponent } from './imgComponent/imgComponent.component';
+import { ViewGaleryComponent } from './ViewGalery/ViewGalery.component';
 
 const routes: Routes = [
   { 
     path: 'compGalery', 
-    component: ImgComponentComponent 
+    component: ViewGaleryComponent
   }
 ];
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     GaleryImgComponent,
-    ImgComponentComponent
+    ImgComponentComponent,
+      ViewGaleryComponent
    ],
   imports: [
     BrowserModule,
