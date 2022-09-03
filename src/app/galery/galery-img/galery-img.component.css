@@ -51,39 +51,3 @@ h1{
 
 /*TimeLine*/
 
-.contenedor-timeline{
-    max-height: 135px;
-    overflow-x: auto;
-    
-}
-
-.contenedor-timeline::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-    border-radius: 20px; 
-  }
-  
-  .contenedor-timeline::-webkit-scrollbar-track {
-    background: #39ff14;        /* color of the tracking area */
-    border-radius: 20px; 
-  }
-  
-  .contenedor-timeline::-webkit-scrollbar-thumb {
-    background-color: #0048cf;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #39ff14;  /* creates padding around scroll thumb */
-  }
-
-.contenedor-timeline .item{
-    min-width: 110px;
-    color: #fff;
-    font-size: 25px;
-    height: 110px;
-    line-height: 110px;
-    text-align: center;
-    background-color: #ddd;
-    margin-right: 5px;
-    border-radius: 50%;
-    background-image: radial-gradient(circle at 50% 50%, #df67ff 0, #a458ff 25%, #6446f9 50%, #0034d0 75%, #0025aa 100%);
-    animation: change 10s ease-in-out infinite;
-}
-
