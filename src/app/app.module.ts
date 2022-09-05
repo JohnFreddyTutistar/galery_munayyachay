@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { GaleryImgComponent } from './galery/galery-img/galery-img.component';
 import { ImgComponentComponent } from './imgComponent/imgComponent.component';
 import { ViewCarrosasComponent } from './viewGalery/ViewCarrosas/ViewCarrosas.component';
+import { ImageListComponent } from './imgComponent/image-list/image-list.component';
+import { ImageComponent } from './imgComponent/image-list/image.component';
 
 @NgModule({
   declarations: [		
     AppComponent,
     GaleryImgComponent,
     ImgComponentComponent,
-    ViewCarrosasComponent
+    ViewCarrosasComponent,
+    ImageListComponent,
+    ImageComponent
    ],
   imports: [
     BrowserModule,

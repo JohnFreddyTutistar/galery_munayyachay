@@ -1,5 +1,4 @@
 h1{
-    color: #fff;
     font-size: 50px;
 }
 
@@ -42,7 +41,7 @@ h1{
     /* background-image: url(./imgcarnaval.jpg);  */
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0px 20px 25px -10px rgba(0,0,0,0.5);
+    box-shadow: -7px 10px 41px -7px rgba(0,0,0,0.75);
 }
 .cajaVacia{
     width: 200px;
